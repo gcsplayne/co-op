@@ -1,13 +1,22 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 .container {
-  min-height: 150vh;
+  min-height: 210vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
-  height: 180vh;
+  height: 80vh;
+  
+}
+
+.About {
+  text-align: center ;
   border: solid red;
 }
+
+
 
 .booking {
 border: solid burlywood;
@@ -17,25 +26,37 @@ border: solid burlywood;
   border: solid yellowgreen;
 }
 
-.video {
-  border: solid white;
+
+
+.video-responsive {
+
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  border: solid red;
+}
+
+.video-responsive iframe {
+  border: solid red;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 /* LOGO */
 .main {
-  padding: 5rem 0;
+  padding: 3rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: solid blue;
+  
 }
 
-.form {
-  border: solid red;
 
-}
 /* header and footer  */
 .logo {
   border: solid blueviolet;
@@ -43,13 +64,7 @@ border: solid burlywood;
   align-self:flex-start;
 }
 
-.nav {
-  line-height: 1.5;
-  font-size: 1.5rem;
-  text-align:end;
-  word-spacing: normal;
 
-}
 
 .footer {
   width: 100%;
@@ -108,6 +123,7 @@ border: solid burlywood;
 }
 
 .grid {
+  background-color: burlywood;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -117,6 +133,7 @@ border: solid burlywood;
 }
 
 .card {
+  background-color: red;
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;

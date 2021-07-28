@@ -1,13 +1,15 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import ContactForm from "../components/contact-form";
+import ContactForm from "../components/Form";
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
+import Video from '../components/Video';
+import About from '../components/About';
 
 export default function Home() {
   return (
     <div className={styles.container}>
 
-    
       <Head>
       {/* name in tabs - browser */}
         <title>Matt Playne</title>
@@ -15,37 +17,24 @@ export default function Home() {
         {/* icon infront of name with link  */}
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <p className={styles.logo}>
-          Matt Playne (logo)
-        </p>
-      <div className={styles.nav}>
-        <a href="#music">Music </a>
-        <a href="#booking">Booking </a>
-        <a href="#lessons">Lessons</a>
-        </div>
+      <Navbar />
 
       <main className={styles.main}>
         
-        
+        <Video />
         
         {/* <h1 className={styles.title}>
           Matt Playne
         </h1> */}
+        <About />
         
-
-        <section className={styles.video}>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/GN-BfRMJGLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-
-
-        
-        <p className={styles.description}>
+        {/* <p className={styles.description}>
           About - Matt Playne is a singer-songwriter. Book him for your wedding and private or public events. -- Click Here
-        </p>
+        </p> */}
         
-        <div className={styles.form}>
+    
         <ContactForm />
-        </div>
+       
 
 
         <section className={styles.booking}>
@@ -112,10 +101,8 @@ export default function Home() {
 
 
       </main>
-
-      <footer className={styles.footer}>
-        Created by Matt Playne
-      </footer>
+        <Footer />
+     
     </div>
   )
 }
