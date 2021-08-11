@@ -1,58 +1,18 @@
 import styled from 'styled-components';
 import Link from 'next/link';
 
-const Nav = styled.nav`
-  height: 120px;
-  background: rgb(221,230,213,0.9);
-  color: #667b68;
-  font-size: 24px;
-  border-bottom: solid white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  
-   /* position: sticky; 
-  top: 0; */}
-`;
-
-
-const StyledLink = styled.a`
-  padding: 0rem 2rem;
-  
-  
-  a:hover {
-    text-decoration: underline;
-    opacity: .3;
-    
-  }
-`;
-
 const Navbar = () => {
   return (
-    <Nav>
-      <div>
-        <Link href='/' passHref>
-          <StyledLink><a>Matt Playne</a></StyledLink>
-        </Link>
+    <nav>
+      <div className="logo">
+      <Link href="/"><a>Matt Playne</a></Link>
       </div>
-     
-      <div>
-        <Link href='/' passHref>
-          <StyledLink><a>Music</a></StyledLink>
-        </Link>
-        <Link href='/' passHref>
-          <StyledLink><a>Booking</a></StyledLink>
-        </Link>
-        <Link href='/' passHref>
-          <StyledLink><a>Lessons</a></StyledLink>
-        </Link>
 
+        <Link href="/"><a>Music</a></Link>
+        <Link href="/booking"><a>Booking</a></Link>
+        <Link href="/lessons"><a>Lessons</a></Link>
         
-        
-        
-      </div>
-    </Nav>
+    </nav>
   );
 };
 

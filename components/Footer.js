@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 const FooterSection = styled.div`
 background: rgb(221,230,213,0.9);
+
 color: #667b68;
 height: 60px;
 display: flex;

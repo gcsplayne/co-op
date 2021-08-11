@@ -3,24 +3,8 @@ import styles from '../styles/Home.module.css'
 
 import { useForm, ValidationError } from "@formspree/react";
 
-const FormBox = styled.div`
 
-width: 62rem;
-padding: 1rem;
-background: rgb(221,230,213,0.5);
-color: #667b68;
-text-align: center;
-font-size: 15px;
-justify-content: center;
-align-items:center;
-width: 100%;
-`;
-
-
-
-
-
-export default function ContactForm() {
+export default function Form() {
   const [state, handleSubmit] = useForm("mbjqzrab");
 
   if (state.succeeded) {
@@ -28,7 +12,11 @@ export default function ContactForm() {
   }
 
   return (
-    <FormBox>
+
+        <div className={styles.formbox}>
+        <p className={styles.para}>Matt Playne has news for you!<br /></p>
+         <p className={styles.info}>(Sign-up for free music and updates)</p>
+        <div className={styles.form}>
     <form onSubmit={handleSubmit}>
       <label htmlFor="email">Email Address</label>
       <input id="email" type="email" name="email" />
@@ -44,6 +32,7 @@ export default function ContactForm() {
       </button>
       <ValidationError errors={state.errors} />
     </form>
-    </FormBox>
+    </div>
+    </div>
   );
 }

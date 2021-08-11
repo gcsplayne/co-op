@@ -2,17 +2,13 @@ import styled from 'styled-components';
 import PropTypes from "prop-types";
 
 
-const Content = styled.a`
-  
-  margin-bottom: 30px;
-  }
-`;
+
 
 const YoutubeEmbed = ({ embedId }) => (
-  <Content>
+
   <div className="video-responsive">
     <iframe
-      width="853"
+      width="1573"
       height="500"
       src={`https://www.youtube.com/embed/GN-BfRMJGLU`}
       frameBorder="0"
@@ -21,7 +17,8 @@ const YoutubeEmbed = ({ embedId }) => (
       title="Youtube Chanel"
     />
   </div>
-  </Content>
+  
+  
 );
 
 YoutubeEmbed.propTypes = {
