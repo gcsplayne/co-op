@@ -8,7 +8,7 @@ const YoutubeEmbed = ({ embedId }) => (
 
   <div className="video-responsive">
     <iframe
-      width="1573"
+      width="950"
       height="500"
       src={`https://www.youtube.com/embed/GN-BfRMJGLU`}
       frameBorder="0"

@@ -1,12 +1,17 @@
 import styled from 'styled-components';
 import Link from 'next/link';
+import Image from 'next/image'
+import styles from '../styles/Home.module.css'
+
+
 
 const Navbar = () => {
   return (
     <nav>
-      <div className="logo">
-      <Link href="/"><a>Matt Playne</a></Link>
-      </div>
+      <div className='logo'>
+          <Image src="/images/logo2.png" width={300} height={300}></Image>
+        </div>
+     
 
         <Link href="/"><a>Music</a></Link>
         <Link href="/booking"><a>Booking</a></Link>

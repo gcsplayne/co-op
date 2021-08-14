@@ -44,6 +44,7 @@ export default function SimpleCard() {
       justifyContent="center"
       alignItems="center" spacing={4}>
 <Grid item xs={12} sm={6} md={4}>
+<Link href="booking">
 <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
@@ -68,6 +69,7 @@ export default function SimpleCard() {
         </Button>
       </CardActions>
     </Card>
+    </Link>
     </Grid>
     <Grid item xs={12} sm={6} md={4}>
       <Link href="booking">
@@ -100,6 +102,7 @@ export default function SimpleCard() {
 
 
     <Grid item xs={12} sm={6} md={4}>
+    <Link href="booking">
 <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
@@ -125,6 +128,7 @@ export default function SimpleCard() {
         </Button>
       </CardActions>
     </Card>
+    </Link>
     </Grid>
     </Grid>
     </div>
