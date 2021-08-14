@@ -26,7 +26,7 @@ export default function Home() {
         {/* <Photo /> */}
        
        <div className={styles.img}>
-        <Image src="/images/MP2.jpg" width={3000} height={2000}>
+        <Image src="/images/MP2.jpg" width={3000} height={2000} alt="Matt Playne">
         </Image>
         </div>
         <Form />
