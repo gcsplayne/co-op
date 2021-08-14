@@ -10,7 +10,7 @@ const BookingForm = () => {
     <div className={styles.bookformbox}>
    
 
-    <iframe src="https://tally.so/embed/3jyW4m?hideTitle=1" width="50%" height="500" frameborder="0" marginheight="0" marginwidth="0" title="Booking Form"></iframe></div>
+    <iframe src="https://tally.so/embed/3jyW4m?hideTitle=1" width="75%" height="600" frameborder="0" marginheight="0" marginwidth="0" title="Booking Form"></iframe></div>
   );
 }
  
