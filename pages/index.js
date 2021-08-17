@@ -15,13 +15,7 @@ import Layout from '../components/Layout';
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        {/* name in tabs - browser */}
-        <title>Matt Playne</title>
-       
-        {/* icon infront of name with link  */}
-        <link rel="shortcut icon" href="/favicon.ico" />
-      </Head>
+      
       <main className={styles.main}>
         {/* <Photo /> */}
        

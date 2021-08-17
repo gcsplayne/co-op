@@ -1,7 +1,16 @@
+import styles from '../styles/Home.module.css'
+import LessonsForm from "../components/Lessons";
+
+
 const Lessons = () => {
     return (  
-        <div>
-            <h1>Lessons</h1>
+        <div className={styles.container}>
+        <main>
+           
+            <LessonsForm />
+            
+
+        </main>
         </div>
     );
 }

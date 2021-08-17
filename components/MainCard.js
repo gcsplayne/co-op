@@ -49,18 +49,18 @@ export default function SimpleCard() {
       <CardActionArea>
         <CardMedia
           component="img"
-          alt="Contemplative Reptile"
-          height="350"
-          image="/images/Selfie2.jpg"
-          title="Contemplative Reptile"
+          alt="Private Event"
+          height="220"
+          image="/images/wedding.jpg"
+          title="Private Events"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Private Events
+            Weddings
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Book your private events
-          </Typography>
+          {/* <Typography variant="body2" color="textSecondary" component="p">
+            Book your wedding singer 
+          </Typography> */}
         </CardContent>
       </CardActionArea>
       <CardActions>
@@ -77,18 +77,18 @@ export default function SimpleCard() {
       <CardActionArea>
         <CardMedia
           component="img"
-          alt="Contemplative Reptile"
-          height="350"
-          image="/images/Couple.png"
-          title="Contemplative Reptile"
+          alt="Weddings"
+          height="220"
+          image="/images/cafe.jpg"
+          title="Weddings"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Weddings
+          Restaurants - Coffee Shop - Bars
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          {/* <Typography variant="body2" color="textSecondary" component="p">
             Book your wedding singer today
-          </Typography>
+          </Typography> */}
         </CardContent>
       </CardActionArea>
       <CardActions>
@@ -107,18 +107,18 @@ export default function SimpleCard() {
       <CardActionArea>
         <CardMedia
           component="img"
-          alt="Contemplative Reptile"
-          height="350"
-          image="/images/MP2.jpg"
-          title="Contemplative Reptile"
+          alt="Restaurants Coffee Shops Bars"
+          height="220"
+          image="/images/events3.jpg"
+          title="Restaurants - Coffee Shops - Bars"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-          Restaurants - Coffee Shop - Bars
+          Private Events
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          {/* <Typography variant="body2" color="textSecondary" component="p">
             Make you dance, Make you cry and everything in between
-          </Typography>
+          </Typography> */}
         </CardContent>
       </CardActionArea>
       <CardActions>

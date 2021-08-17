@@ -30,6 +30,7 @@ nav {
   /* background: rgb(221,230,213,0.9); */
   opacity: 80%;
   border-bottom: solid thin black;
+  
 }
 nav a {
   font-size: 1.4rem;
@@ -37,28 +38,30 @@ nav a {
   padding-right: 23px;
 }
 nav a:hover {
-  opacity: 30%;
+ opacity: 40%;
   text-decoration: underline;
 }
 
-nav .logo {
-margin-right: auto;
-
-  color: white;
+nav a.logolink {
+  margin-right: auto;
 }
+nav a.logolink:hover {
+  opacity: 100%;
+}
+
+
+
 
 
 
 footer {
-  display: block;
   text-align: center;
-  padding: 30px 0;
-  margin-top: 60px;
   color: black;
   border-top: 1px solid #eaeaea;
-  background: rgb(221,230,213,0.9);
   height: 60px;
   display: flex;
   justify-content:center;
   align-items: center;  
+  border: solid thin black;
+  margin: 10px;
 }

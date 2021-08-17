@@ -14,25 +14,31 @@ export default function Form() {
   return (
 
         <div className={styles.formbox}>
-        <p className={styles.para}>Matt Playne has news for you!<br /></p>
-         <p className={styles.info}>(Sign-up for free music and updates)</p>
         <div className={styles.form}>
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="email">Email Address</label>
-      <input id="email" type="email" name="email" />
-      <ValidationError prefix="Email" field="email" errors={state.errors} />
-      
-      <label htmlFor="name">Name</label>
-      <input id="name" type="text" name="name" />
-      <ValidationError prefix="Name" field="text" errors={state.errors} />
-      {/* <textarea id="message" name="message" />
-      <ValidationError prefix="Message" field="message" errors={state.errors} /> */}
-      <button type="submit" disabled={state.submitting}>
-        Submit
-      </button>
-      <ValidationError errors={state.errors} />
-    </form>
-    </div>
+        <p className={styles.para}>Matt Playne has news for you!<br /></p>
+        
+         <p className={styles.info}>(Sign-up for free music and updates)</p>
+         <iframe src="https://tally.so/embed/nGzYpw?hideTitle=1&alignLeft=1&transparentBackground=1" width="100%" height="160" frameBorder="0" marginHeight="0" marginWidth="0" title="Email Capture"></iframe>
+         </div>
     </div>
   );
 }
+// {/* <div className={styles.form}>
+    
+//     <form onSubmit={handleSubmit}>
+      
+      
+//       <label htmlFor="name">Name</label>
+//       <input id="name" type="text" name="name" />
+//       <label htmlFor="email">Email Address</label>
+//       <input id="email" type="email" name="email" />
+//       <ValidationError prefix="Email" field="email" errors={state.errors} />
+//       <ValidationError prefix="Name" field="text" errors={state.errors} />
+//       {/* <textarea id="message" name="message" />
+//       <ValidationError prefix="Message" field="message" errors={state.errors} /> */}
+//       <button type="submit" disabled={state.submitting}>
+//         Submit
+//       </button>
+//       <ValidationError errors={state.errors} />
+//     </form>
+//     </div> */}

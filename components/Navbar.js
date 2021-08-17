@@ -8,9 +8,10 @@ import styles from '../styles/Home.module.css'
 const Navbar = () => {
   return (
     <nav>
-      <div className='logo'>
+      <Link href="/"><a className={'logolink'}><div className='logo'>
           <Image src="/images/logo2.png" width={300} height={300} alt="logo"></Image>
-        </div>
+        </div></a>
+        </Link>
      
 
         <Link href="/"><a>Music</a></Link>
