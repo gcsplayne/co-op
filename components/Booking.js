@@ -9,7 +9,7 @@ const BookingForm = () => {
 
     <div className={styles.bookblurb}>
     <div className={styles.bookformbox}>
-    <h1>Professional & heartfelt acoustic music to compliment your next event</h1>
+    <h1>Professional & heartfelt acoustic music to compliment your next event.</h1>
 
     {/* <h2><b>Weddings:</b></h2>
     <p> We work together to fill your special day with your favourite music - Love songs for all ages.</p>
