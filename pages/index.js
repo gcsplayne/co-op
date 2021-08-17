@@ -11,9 +11,16 @@ import Card from '../components/MainCard';
 import Layout from '../components/Layout';
 
 {/* <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> */}
-
+<Head>
+        {/* name in tabs - browser */}
+        <title>Matt Playne</title>
+       
+        {/* icon infront of name with link  */}
+        <link rel="shortcut icon" type="image/x-icon" href="/public/favicon.ico" />
+      </Head>
 export default function Home() {
   return (
+    
     <div className={styles.container}>
       
       <main className={styles.main}>

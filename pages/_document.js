@@ -2,13 +2,7 @@ import Document from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 import Head from 'next/head'
 
-<Head>
-        {/* name in tabs - browser */}
-        <title>Matt Playne</title>
-       
-        {/* icon infront of name with link  */}
-        <link rel="shortcut icon" type="image/x-icon" href="/public/favicon.ico" />
-      </Head>
+
 
 export default class MyDocument extends Document {
   
