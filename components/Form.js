@@ -17,7 +17,7 @@ export default function Form() {
         <div className={styles.form}>
         <p className={styles.para}>Matt Playne has news for you!<br /></p>
         
-         <p className={styles.info}>(Sign-up for free music and updates)</p>
+         <p className={styles.info}>(Sign-up for free music and updates.)</p>
          <iframe src="https://tally.so/embed/nGzYpw?hideTitle=1&alignLeft=1&transparentBackground=1" width="100%" height="160" frameBorder="0" marginHeight="0" marginWidth="0" title="Email Capture"></iframe>
          </div>
     </div>

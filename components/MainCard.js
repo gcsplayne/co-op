@@ -39,7 +39,7 @@ export default function SimpleCard() {
   const bull = <span className={classes.bullet}>•</span>;
 
   return (
-      <div className={styles.bookbox}><p className={styles.banner}>The BEST acoustic vibe for your event</p>
+      <div className={styles.bookbox}><p className={styles.banner}>The BEST acoustic vibe for your event.</p>
       <Grid container direction="row"
       justifyContent="center"
       alignItems="center" spacing={4}>
