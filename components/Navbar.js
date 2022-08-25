@@ -1,28 +1,54 @@
-import styled from 'styled-components';
-import Link from 'next/link';
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styled from "styled-components";
+import Link from "next/link";
+import Image from "next/image";
+import styles from "../components/navbar.module.css";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
-
-
-const Navbar = () => {
+function BasicExample() {
   return (
-    <nav>
-      <Link href="/"><a className={'logolink'}><div className='logo'>
-          <Image src="/images/logo2.png" width={300} height={300} alt="logo"></Image>
-        </div></a>
-        </Link>
-     
-
-        <Link href="/"><a>Music</a></Link>
-        <Link href="/booking"><a>Booking</a></Link>
-        <Link href="/lessons"><a>Lessons</a></Link>
-        
-    </nav>
+    <Container>
+      <Navbar className="" bg="light" expand="lg">
+        <Container>
+          <Navbar.Brand href="/">Matt Playne</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse className={styles.border} id="basic-navbar-nav">
+            <Nav className={styles.center}>
+              <Nav.Link className={styles.underline} href="#home">
+                About
+              </Nav.Link>
+              <Nav.Link className={styles.underline} href="/booking">
+                Booking
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </Container>
   );
-};
+}
 
-export default Navbar;
+export default BasicExample;
+
+// const Navbar = () => {
+//   return (
+//     <nav>
+//       <Link href="/"><a className={'logolink'}><div className='logo'>
+//           <Image src="/images/logo2.png" width={300} height={300} alt="logo"></Image>
+//         </div></a>
+//         </Link>
+
+//         <Link href="/"><a>Music</a></Link>
+//         <Link href="/booking"><a>Booking</a></Link>
+//         <Link href="/lessons"><a>Lessons</a></Link>
+
+//     </nav>
+//   );
+// };
+
+// export default Navbar;
 
 // import styled from 'styled-components'
 // import Link from 'next/link';
@@ -34,7 +60,6 @@ export default Navbar;
 //   justify-content: flex-start;
 //   border: solid red;
 // `;
-
 
 // const Ul = styled.ul`
 //   display: flex;
@@ -82,31 +107,6 @@ export default Navbar;
 
 // export default NavBar;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // // const Nav = styled.nav`
 // // background: #000;
 // // height:180px;
@@ -129,17 +129,17 @@ export default Navbar;
 // //              <Link href='/' passHref>
 // //                  <StyledLink>Matt Playne</StyledLink>
 // //                  </Link>
-// //           </div>  
+// //           </div>
 // //           <div>
 // //              <Link href='/' passHref>
 // //                  <StyledLink>Music</StyledLink>
 // //                  </Link>
-// //           </div>  
+// //           </div>
 // //           <div>
 // //              <Link href='/' passHref>
 // //                  <StyledLink>About</StyledLink>
 // //                  </Link>
-// //           </div>  
+// //           </div>
 // //         </Nav>
 // //     );
 // // };

@@ -1,0 +1,11 @@
+.border {
+  font-size: larger;
+}
+
+.center {
+  margin-left: 37%;
+}
+
+.underline:hover {
+  text-decoration: underline;
+}
