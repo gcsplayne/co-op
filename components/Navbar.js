@@ -10,14 +10,14 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 function BasicExample() {
   return (
     <Container>
-      <Navbar className="" bg="light" expand="lg">
+      <Navbar expand="lg">
         <Container>
           <Navbar.Brand href="/">Matt Playne</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse className={styles.border} id="basic-navbar-nav">
-            <Nav className={styles.center}>
+            <Nav className="m-auto">
               <Nav.Link className={styles.underline} href="#home">
-                About
+                Live
               </Nav.Link>
               <Nav.Link className={styles.underline} href="/booking">
                 Booking

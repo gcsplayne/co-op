@@ -2,10 +2,10 @@
   font-size: larger;
 }
 
-.center {
+/* .center {
   margin-left: 37%;
-}
+} */
 
-.underline:hover {
+.underline {
   text-decoration: underline;
 }
