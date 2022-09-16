@@ -9,20 +9,26 @@
   max-width: 1920px;
 } */
 
-/* .container {
-  min-height: 80vh;
-  max-width: 1920px;
+.container {
   padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
+}
+.larger {
+  font-size: 18px !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 800;
+  margin: 0 10px;
+}
 
+.larger:hover {
+  transition: 0.5 ease-in-out;
+  text-decoration: underline;
+}
 .img {
-  padding-top: 2rem;
+  padding-bottom: 2rem;
   margin: 0 auto;
-  height: 50%;
-  width: 50%;
+  height: 40%;
+  width: 40%;
   animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   -moz-animation: fadeIn 5s;
@@ -123,6 +129,7 @@
   text-align: center;
   font-size: 35px;
   text-decoration: underline;
+  margin-top: 2rem;
 }
 .bookblurb {
   font-size: 1em;

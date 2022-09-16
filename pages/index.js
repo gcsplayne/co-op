@@ -10,6 +10,7 @@ import Card from "../components/MainCard";
 import { Container } from "react-bootstrap";
 
 import Layout from "../components/Layout";
+import ImageCarousel from "../components/carousel";
 
 {
   /* <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> */
@@ -25,21 +26,24 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
+        {/* <Container>
+          <ImageCarousel />
+        </Container> */}
+
         <Container>
           <Video />
         </Container>
 
         <Form />
         {/* <Photo /> */}
-        <div className={styles.img}>
-          <Image
-            src="/images/MP2.jpg"
-            width={3000}
-            height={2000}
-            alt="Matt Playne"
-          ></Image>
-        </div>
 
+        <Container>
+          <img
+            src="/images/edit.jpg"
+            className=" d-flex img-fluid shadow-4 w-75 m-auto"
+            alt="..."
+          />
+        </Container>
         <Card />
       </main>
     </div>

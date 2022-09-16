@@ -16,6 +16,11 @@ a {
   /* max-width: 1380px;
   margin: 0 auto; */
 }
+
+Nav {
+  margin-bottom: 1rem;
+}
+
 /* nav {
   border: solid red;
   height: 120px;
@@ -43,7 +48,7 @@ nav a.logolink {
 nav a.logolink:hover {
   opacity: 100%;
 } */
-*/ footer {
+footer {
   text-align: center;
   color: black;
   border-top: 1px solid #eaeaea;
