@@ -38,7 +38,7 @@ export default function Home() {
         {/* <Photo /> */}
 
         <Container>
-          <img
+          <Image
             src="/images/edit.jpg"
             className=" d-flex img-fluid shadow-4 w-75 m-auto"
             alt="..."

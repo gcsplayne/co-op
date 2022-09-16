@@ -4,7 +4,7 @@ function ImageCarousel() {
   return (
     <Carousel variant="dark">
       <Carousel.Item>
-        <img
+        <Image
           height="400"
           className="d-block w-100"
           src="/images/editsmall.jpg"
@@ -16,7 +16,7 @@ function ImageCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
+        <Image
           height="400"
           className="d-block w-100"
           src="/images/MP3.jpg"
@@ -28,7 +28,7 @@ function ImageCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
+        <Image
           height="400"
           className="d-block w-100"
           src="/images/MP3.jpg"
