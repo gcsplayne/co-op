@@ -74,7 +74,7 @@ export default function SimpleCard() {
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
-          <Link href="booking">
+          <Link href="booking" passHref>
             <Card className={classes.root}>
               <CardActionArea>
                 <CardMedia

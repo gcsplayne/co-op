@@ -16,13 +16,18 @@ function CollapsibleExample() {
     >
       <Container>
         <Navbar.Brand href="/">
-          <Image width="80" height="80" src="/images/logo-white.png" />
+          <Image
+            width="80"
+            height="80"
+            src="/images/logo-white.png"
+            alt="logo"
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav>
-            <Nav.Link className={styles.larger} href="/booking">
+            <Nav.Link className={styles.larger} href="/booking" passHref>
               Book Now
             </Nav.Link>
           </Nav>
