@@ -6,10 +6,16 @@ import styles from "../styles/Home.module.css";
 
 function CollapsibleExample() {
   return (
-    <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar
+      className={styles.navcolor}
+      sticky="top"
+      collapseOnSelect
+      expand="lg"
+      variant="dark"
+    >
       <Container>
         <Navbar.Brand href="/">
-          <img width="80" height="80" src="/images/logo_green.png"></img>
+          <img width="80" height="80" src="/images/logo-white.png"></img>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

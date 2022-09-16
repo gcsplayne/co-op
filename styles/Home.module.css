@@ -9,6 +9,10 @@
   max-width: 1920px;
 } */
 
+.navcolor {
+  background-color: rgba(57, 57, 57, 1) !important;
+}
+
 .container {
   padding: 0 0.5rem;
 }
