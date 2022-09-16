@@ -1,4 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
+import Image from "next/image";
 
 function ImageCarousel() {
   return (

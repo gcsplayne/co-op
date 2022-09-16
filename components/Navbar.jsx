@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import styles from "../styles/Home.module.css";
+import Image from "next/image";
 
 function CollapsibleExample() {
   return (
@@ -15,7 +16,7 @@ function CollapsibleExample() {
     >
       <Container>
         <Navbar.Brand href="/">
-          <img width="80" height="80" src="/images/logo-white.png"></img>
+          <Image width="80" height="80" src="/images/logo-white.png" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
