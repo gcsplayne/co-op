@@ -8,7 +8,7 @@ import Navbar from "../components/Navbar";
 import Video from "../components/Video";
 import Card from "../components/MainCard";
 import { Container } from "react-bootstrap";
-
+import styled from "styled-components";
 import Layout from "../components/Layout";
 import ImageCarousel from "../components/carousel";
 
