@@ -10,7 +10,6 @@ import Card from "../components/MainCard";
 import { Container } from "react-bootstrap";
 import styled from "styled-components";
 import Layout from "../components/Layout";
-import ImageCarousel from "../components/carousel";
 
 {
   /* <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> */
